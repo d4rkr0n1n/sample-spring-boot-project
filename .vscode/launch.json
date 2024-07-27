@@ -1,0 +1,47 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "dev",
+      "request": "launch",
+      "mainClass": "${file}",
+      "projectName": "sample-project",
+      "vmArgs": "-Dspring.profiles.active=dev",
+    },
+    {
+      "type": "java",
+      "name": "prod",
+      "request": "launch",
+      "mainClass": "${file}",
+      "projectName": "sample-project",
+      "vmArgs": "-Dspring.profiles.active=prod",
+    },
+    {
+      "type": "java",
+      "name": "qa",
+      "request": "launch",
+      "mainClass": "${file}",
+      "projectName": "sample-project",
+      "vmArgs": "-Dspring.profiles.active=qa",
+    },
+    {
+      "type": "java",
+      "name": "test",
+      "request": "launch",
+      "mainClass": "${file}",
+      "projectName": "sample-project",
+      "vmArgs": "-Dspring.profiles.active=test",
+    },
+    {
+      "type": "java",
+      "name": "ProjectApplication",
+      "request": "launch",
+      "mainClass": "io.d4rkr0n1n.project.ProjectApplication",
+      "projectName": "sample-project"
+    }
+  ]
+}
